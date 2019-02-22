@@ -1,7 +1,7 @@
 {
   "name": "angularModuleSegregation",
   "version": "1.0.0",
-  "description": " Angular Admin Template as a starter-Kit with Modules segregated ", 
+  "description": " Angular Admin Template as a starter-Kit with Modules segregated ",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
