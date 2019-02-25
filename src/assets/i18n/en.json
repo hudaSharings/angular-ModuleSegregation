@@ -1,0 +1,21 @@
+{
+    "login":{
+        "username":"User Name",
+        "password":"Password",
+        "login":"Login",
+        "forgot_password":"Forgot password ?",
+        "signup":"Sign up",
+        "register_now":"Register Now !",
+        "sign_in_to_your_account":"Sign In to your account"
+    },
+    "register":{
+        "register":"Register",
+        "username":"User Name",
+        "email":"Email",
+        "password":"Password",
+        "repeat_password":"Repeat password",
+        "create_your_account":"Create Your Account",
+        "create_account":"Create Account",
+        "goto_login":"Goto Login"
+    }
+}

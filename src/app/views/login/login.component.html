@@ -7,26 +7,26 @@
             <div class="card p-4">
               <div class="card-body">
                 <form>
-                  <h1>Login</h1>
-                  <p class="text-muted">Sign In to your account</p>
+                  <h1>{{'login.login'| translate}}</h1>
+                  <p class="text-muted">{{'login.sign_in_to_your_account' | translate}}</p>
                   <div class="input-group mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="icon-user"></i></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Username" autocomplete="username" required>
+                    <input type="text" class="form-control" placeholder="{{'login.username'| translate}}" autocomplete="username" required>
                   </div>
                   <div class="input-group mb-4">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="icon-lock"></i></span>
                     </div>
-                    <input type="password" class="form-control" placeholder="Password" autocomplete="current-password" required>
+                    <input type="password" class="form-control" placeholder="{{'login.password'| translate}}" autocomplete="current-password" required>
                   </div>
                   <div class="row">
                     <div class="col-6">
-                      <button type="button" (click)="login()" class="btn btn-primary px-4">Login</button>
+                      <button type="button" (click)="login()" class="btn btn-primary px-4">{{'login.login' | translate}}</button>
                     </div>
                     <div class="col-6 text-right">
-                      <a  class="btn btn-link px-0" [routerLink]='register'>Forgot password?</a>
+                      <a  class="btn btn-link px-0" [routerLink]='register'>{{'login.forgot_password'| translate}}</a>
                     </div>
                   </div>
                 </form>
@@ -35,9 +35,9 @@
             <div class="card text-white bg-primary py-5 d-md-down-none" style="width:44%">
               <div class="card-body text-center">
                 <div>
-                  <h2>Sign up</h2>
+                  <h2>{{'login.signup'| translate}}</h2>
                   
-                  <a class="btn btn-primary active mt-3" href='#/register'>Register Now!</a>
+                  <a class="btn btn-primary active mt-3" href='#/register'>{{'login.register_now'|translate}}</a>
                 </div>
               </div>
             </div>

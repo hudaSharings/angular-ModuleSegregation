@@ -50,7 +50,10 @@ export const navItems: NavData[] = [
       {
         name: 'Items',
         url: '/inventory/items',
-        icon: 'icon-cursor '
+        icon: 'icon-cursor ',
+        data:{
+
+        }
       },
       {
         name: 'Categories',
